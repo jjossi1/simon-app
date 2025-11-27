@@ -15,7 +15,7 @@
     	     ) VALUES
     	     ( #{lgnId}
     	     , #{email}
-    	     , #{password}
+    	     , #{encodedPassword}
     	     , #{lgnId}
     	     )
     </insert>

@@ -21,7 +21,18 @@ dependencies {
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
     runtimeOnly 'org.postgresql:postgresql:42.6.0'
     
+    implementation 'org.springframework.boot:spring-boot-starter-security'
+    
     implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.3.2'
+    
+    implementation 'io.jsonwebtoken:jjwt-api:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-impl:0.11.5'
+    implementation 'io.jsonwebtoken:jjwt-jackson:0.11.5'
+    
+    compileOnly 'org.projectlombok:lombok:1.18.36'      // 버전은 필요시 조절
+    annotationProcessor 'org.projectlombok:lombok:1.18.36'
+    
+    
 }
 
 bootWar {
